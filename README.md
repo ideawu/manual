@@ -5,6 +5,7 @@
 ```
 git fetch origin
 git reset --hard origin/master
+git commit --force
 ```
 
 ### 忽略本地修改(未 commit 到远程)
