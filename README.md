@@ -19,6 +19,8 @@ git reset --hard commit_id
 
 ```
 git rebase -i 0ad14fa5(想修改此条之后的记录, 不包括此条)
-# 针对要修改的记录, 改为 edit
+# 然后针对要修改的记录, 改为 edit
+# 接着修改
+git commit --amend --author="www <abc@www.org>" --no-edit
 git push -f
 ```
