@@ -1,5 +1,13 @@
 # Git 常用操作
 
+### 遍历 git pull 自动 merge
+
+Why the FUCK!
+
+```
+git pull --rebase
+```
+
 ### 用 master 覆盖分支(sync branch exactly with master)
 
 ```
