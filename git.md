@@ -19,7 +19,7 @@ git commit --force
 ### 忽略本地修改(未 commit 到远程)
 
 ```
-git reset --hard HEAD
+git reset --hard
 git reset --hard commit_id
 ```
 
