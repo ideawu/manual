@@ -1,6 +1,6 @@
 # Git 常用操作
 
-### 遍历 git pull 自动 merge
+### 避免 git pull 自动 merge
 
 Why the FUCK!
 
