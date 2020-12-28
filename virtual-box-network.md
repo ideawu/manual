@@ -10,8 +10,10 @@ ifconfig -a
 $ cat /etc/network/interfaces
 auto enp0s8
 iface enp0s8 inet static
-address 192.168.56.2
+address 192.168.56.10
 netmask 255.255.255.0
+
+# ip 从 .4 开始
 
 sudo ifconfig enp0s8 up
 ```
