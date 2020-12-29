@@ -1,5 +1,5 @@
 ```
-PS1='\u:\h \w\$ '
+PS1='\u@\h:\w\$ '
 alias ll="ls -lG"
 alias gst="git status"
 alias grep="grep --color"
