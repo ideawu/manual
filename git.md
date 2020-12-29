@@ -32,3 +32,15 @@ git rebase -i 0ad14fa5(想修改此条之后的记录, 不包括此条)
 git commit --amend --author="www <abc@www.org>" --no-edit
 git push -f
 ```
+
+# 保存密码(明文)
+
+```
+git config --global credential.helper store
+```
+
+# 保存密码(Mac keychain)
+
+```
+git config --global credential.helper osxkeychain
+```
