@@ -12,3 +12,11 @@ warning: setlocale: LC_CTYPE: cannot change locale (UTF-8)
 export LC_ALL="en_US.UTF-8"
 export LC_CTYPE="en_US.UTF-8"
 ```
+
+# 影响 Terminal 启动时的显示信息
+
+修改 `~/.bash_profile`
+
+```
+export BASH_SILENCE_DEPRECATION_WARNING=1
+```
