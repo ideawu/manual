@@ -28,8 +28,10 @@ Devices -> Insert Guest Additions CD Image...
 
 ```
 # 在虚拟机里
-sudo /media/cdrom/./VBoxLinuxAdditions.run
+sudo mkdir -p /mnt/cdrom
+sudo mount /dev/cdrom /mnt/cdrom
+sudo /mnt/cdrom/VBoxLinuxAdditions.run
 sudo adduser your-user vboxsf
 ```
 
-设置共享文件夹, auto mount, permanent, dis-select read-only
+设置共享文件夹, auto mount, permanent, dis-select read-only. 重启虚拟机.
