@@ -9,5 +9,6 @@ sudo apt remove command-not-found
 # 禁用 ssh 登录提示, 太慢
 
 ```
-sudo chmod -x /etc/update-motd.d/50-landscape-sysinfo /etc/update-motd.d/50-motd-news /etc/update-motd.d/90-updates-available
+cd /etc/update-motd.d
+sudo chmod -x 10-help-text 50-landscape-sysinfo 50-motd-news 90-updates-available 91-release-upgrade
 ```
