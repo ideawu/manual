@@ -35,3 +35,9 @@ sudo /mnt/cdrom/VBoxLinuxAdditions.run
 ```
 
 设置共享文件夹, auto mount, permanent, dis-select read-only. 重启虚拟机.
+
+#### 允许虚拟机中在共享目录内创建软链接
+
+1. 停止虚机
+2. 在宿主机执行: `VBoxManage setextradata $dev_name VBoxInternal2/SharedFoldersEnableSymlinksCreate/$shared_folder_name 1`
+
