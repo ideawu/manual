@@ -26,3 +26,7 @@ chsh -s /bin/bash
 ```
 export BASH_SILENCE_DEPRECATION_WARNING=1
 ```
+
+# 避免滚屏转移成箭头键
+
+当你运行 vim 之后, 鼠标或者触板滚屏时, 并没有滚屏, 而是变成了按上下箭头. 修改 Terminal.app 的 Preferences->Profiles->Keyboard, 取消 Scroll alternate screen.
