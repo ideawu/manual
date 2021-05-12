@@ -11,3 +11,9 @@ ssh-keygen -t rsa
 ```
 chmod uo-rwx ~/.authorized_keys
 ```
+
+远程执行命令
+
+```
+ssh user@ip -p 21 "ls"
+```
