@@ -6,3 +6,7 @@ grep 'abc' a.txt -C 10
 -B before
 -C around
 ```
+
+### zgrep
+
+过滤压缩文件.
