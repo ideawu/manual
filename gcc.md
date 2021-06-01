@@ -11,8 +11,14 @@ g++ -static-libstdc++ a.c
 ```
 
 
-#### 指定链接某个文件
+#### 指定链接某个库文件
 
 ```
 gcc -l:/path/libxx.a
+```
+
+#### 运行时指定动态链接库的路径
+
+```
+LD_LIBRARY_PATH=/path/somewhere:$LD_LIBRARY_PATH my_program
 ```
