@@ -6,7 +6,7 @@ g++ -static-libgcc -static-libstdc++ -l:`g++ -print-file-name=libstdc++.a` a.cpp
 
 **必须指定 libstdc++.a 的路径!**
 
-似乎是错的方法:
+似乎是错的方法(如果使用的是旧版本的 g++ 或者用的是 gcc):
 
 ```
 g++ -static-libstdc++ a.c
