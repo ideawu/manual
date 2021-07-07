@@ -15,7 +15,7 @@ docker ps -a
 ### 新建实例(container)并第一次启动
 
 ```
-docker run -it -v ~/local:/vm -p 127.0.0.1:22:22 --user root --workdir /root --hostname dev --name dev $repo bash
+docker run -it -v ~/local/mydir:/root/share -p 127.0.0.1:22:22 --user root --workdir /root --hostname dev --name dev $repo bash
 ```
 
 * `-v`: 挂载(共享)宿主机的目录
